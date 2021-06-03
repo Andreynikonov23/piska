@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: d69a9a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #bd672a;">
+         <children>
+            <Label layoutX="190.0" layoutY="18.0" text="Сведение о поставщике">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <TableView layoutY="70.0" prefHeight="241.0" prefWidth="600.0" style="-fx-background-color: d69a9a;">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="75.0" text="Name" />
+        </columns>
+      </TableView>
+      <Button layoutX="30.0" layoutY="321.0" mnemonicParsing="false" text="Добавить" />
+      <Button layoutX="123.0" layoutY="321.0" mnemonicParsing="false" text="Изменить" />
+      <Button layoutX="213.0" layoutY="321.0" mnemonicParsing="false" text="Удалить" />
+      <Button layoutX="412.0" layoutY="321.0" mnemonicParsing="false" text="Назад" />
+      <Button layoutX="506.0" layoutY="321.0" mnemonicParsing="false" text="Выход" />
+   </children>
+</AnchorPane>

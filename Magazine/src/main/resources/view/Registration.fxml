@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="603.0" style="-fx-background-color: d69a9a;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-7.0" prefHeight="96.0" prefWidth="609.0" style="-fx-background-color: #bd672a;">
+         <children>
+            <Label layoutX="178.0" layoutY="17.0" prefHeight="57.0" prefWidth="292.0" text="Авторизация пользователя">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="144.0" layoutY="183.0" text="Логин">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="237.0" prefHeight="26.0" prefWidth="69.0" text="Пароль">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="238.0" layoutY="238.0" />
+      <TextField layoutX="238.0" layoutY="184.0" />
+      <Button layoutX="352.0" layoutY="320.0" mnemonicParsing="false" text="Вход" />
+   </children>
+</AnchorPane>
